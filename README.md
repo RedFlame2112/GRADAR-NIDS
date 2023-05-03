@@ -26,7 +26,7 @@ Post train/testing, we have the following 4 variables we can extract from our cl
 - $FN$ : the number of false negatives classified (packet predicted benign, was malicious)
 - $FP$ : the number of false positives classified (packet predicted malicious, was benign)
 
-Our overall accuracy was calculated as $$a = \frac{TP+TN}{TP+TN+FN+FP}$$ and based on the confusion matrix, this was found to be $0.9792$, which was better than what we intended. Presicion was calculated as $$p = \frac{TP}{TP+FP} = 0.9811$$, recall was $$r = \frac{}{} = 0.9773$$. Finally, we calculated our classiication F1 score, which was $$2 \cdot \frac{pr}{p+r} = 0.9792$$, which shows how well our model performed with classifying both benign and malicious samples even though our data was originally extremely imbalanced.
+Our overall accuracy was calculated as $$a = \frac{TP+TN}{TP+TN+FN+FP}$$ and based on the confusion matrix, this was found to be $0.9792$, which was better than what we intended. Presicion was calculated as $$p = \frac{TP}{TP+FP} = 0.9811$$ recall was $$r = \frac{}{} = 0.9773$$. Finally, we calculated our classiication F1 score, which was $$2 \cdot \frac{pr}{p+r} = 0.9792$$ which shows how well our model performed with classifying both benign and malicious samples even though our data was originally extremely imbalanced.
 
 For next steps, we plan to implement optimized inferencing and generalized model prediction using other frameworks closer to the metal over python such as Rust/C(++). We also plan on furthering  Stay tuned for more :)
 
