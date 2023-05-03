@@ -32,6 +32,8 @@ For next steps, we plan to implement optimized inferencing and generalized model
 
 
 # References: 
+Link 1: [Imbalanced Learning: Foundations, Algorithms, and Applications]
+
 [Mirsky, Doitshman, Elovici, Shabtai: "Kitsune: An Ensemble of Autoencoders for Online
 Network Intrusion Detection"](https://arxiv.org/pdf/1802.09089.pdf)
 
